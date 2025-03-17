@@ -1,0 +1,17 @@
+Step 1: Find suitable videos
+		Collect baseball cheering videos from my phone, classify them in to separate albums “Shongyong” and “Other songs”. Only choose the videos that contains cheering song in every second, so that all the clips could be used.
+
+Step 2: Convert videos into audios
+		Use ffmpeg to convert all videos into audios with command line (Appendix1)
+
+Step 3: Cut the audios and make labels.
+		Write a python code to cut all the audios into 3-second clips, also generate a csv file to label all the clips. (Appendix2)
+
+Step 4: Combine two folders into one.
+		Combine clips in “Shongyong” folder and “Other songs” folders into one folder “dataset”, also manually combine two label files into one.
+
+Conclusion:
+		After the above steps, we got a dataset with labels below:
+	        amount	label
+Shongyong	324	yes
+Other songs	497	no
