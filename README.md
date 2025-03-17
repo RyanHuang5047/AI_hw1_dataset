@@ -1,1 +1,0 @@
-# AI_hw1_dataset
